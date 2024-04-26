@@ -3,9 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <title>Comboni's Portfolio</title>
+    <!-- Include Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Add custom CSS here if needed */
+    </style>
     
+</head>
+<body class="bg-gray-100">
+
+<!-- Navigation bar -->
+<nav class="bg-red-800 text-green p-4">
+    <div class="container mx-auto flex justify-between items-center">
+        <a href="#" class="text-xl font-bold">Comboni's Portfolio</a>
+        <ul class="flex space-x-4">
+            <li><a href="#" class="hover:text-gray-300">Home</a></li>
+            <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+            <li><a href="#about" class="hover:text-gray-300">About</a></li>
+            <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero section -->
+<section id="home" class="bg-gray-900 text-white py-20">
+    <div class="container mx-auto text-center">
+        <h1 class="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
+        <p class="text-lg">Hi there!.</p>
+        <p class="text-lg">I'm Comboni</p>
+        <p class="text-lg">I'm passionate about  web design and development!.</p>
+        <img src="img/profile.png" alt="profile picture">
+        <img src="icon.png" alt="icon picture" style="position: absolute; top: 300px; right: 200px;">
+
+
+
+        
+    </div>
+</section>
+
+<!-- Projects section -->
+<section id="projects" class="py-16">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-8 text-center">My Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Project 1 -->
+            <div class="bg-white shadow-md p-6 rounded-lg">
+                <h3 class="text-xl font-bold mb-2 ">Project 1 </h3>
+                <p class="text-gray-700 mb-4">Visit my tailwind project.</p>
+                <a href="https://github.com/comboni-waithaka/tailwind.git" target="_blank">Link to My Project Repository</a>
+            </div> 
+    </div>
+</section>
+
+<!-- About section -->
+<section id="about" class="bg-blue-200 py-16">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-8 text-center-">About Me</h2>
+        <p class="text-lg text-gray-700 mb-4">I finshed my highschool studies in Makwa secondary where i was able 
+           to get a certificate.Although i have never had an official job, i have some experience from working in a hospital laboratory where i had voluntered and it was avery nice and fun experience.Growing up i have always loved playing video games.I have always curious of they are created and how they work.And to get this chance to learn programming with directed is the best oppotunity to do so and in the process get to learn new things like building websites which has been very fun.When am not doing anything you mostly find me watching a movie and sometimes i like walking.
+        </p>
+        
+    </div>
+</section>
+
+<!-- Contact section -->
+<section id="contact" class="py-16">
+    <div class="container mx-auto bg-red-200">
+        <h2 class="text-3xl font-bold mb-8 text-center">Contact Me</h2>
+        <P>
+            Tel NO: 0754567687
+        </P>
+        <P>
+            Email:johnkamau@gmail.com
+        </P>
+        <p>
+            PO Box 0700
+        </p>
+        <P>
+            location:center - 412206f
+        </P>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white py-4 text-center">
+    <div class="container mx-auto">
+        <p>&copy; 2024 Comboni's Portfolio. All rights reserved.</p>
+    </div>
+</footer>
+
 </body>
 </html>
